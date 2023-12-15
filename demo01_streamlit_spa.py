@@ -18,7 +18,7 @@ st.table({'a': [1, 2, 3], 'b': [4, 5, 6]})  # static table
 st.line_chart({'a': [1, 5, 3], 'b': [4, 2, 6]})  # line chart
 st.area_chart({'a': [1, 5, 3], 'b': [4, 2, 6]})  # area chart
 st.bar_chart({'a': [1, 5, 3], 'b': [4, 2, 6]})  # bar chart
-st.pyplot()  # matplotlib plot
+#st.pyplot()  # matplotlib plot
 st.altair_chart()  # altair plot
 st.vega_lite_chart()  # vega lite plot
 st.pydeck_chart()  # pydeck plot
